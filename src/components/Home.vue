@@ -15,7 +15,7 @@
     <div class="flex-container">
         <div class="flex-item box">
             <div class="">
-                <img src="../img/SeekPng.png" width="240" class="img-responsive rounded ">
+                <img src="../img/SeekPng.png" width="474" class="img-responsive rounded " alt="">
             </div>
             <div>
                 <img src="../img/puppy-looking-up.png" class="figure-img img-fluid rounded" width="320" alt="...">
@@ -25,8 +25,10 @@
 
         <div class="flex-item box">
             <div>
-                <a href="https://google.com/ncr" title=""><img src="../img/google-logo.png" width="480"
-                                                               class="img-responsive rounded "></a>
+                <a href="https://google.com/ncr" title="">
+                    <img src="../img/google-logo.png" width="640"
+                                                               class="img-responsive rounded" alt="">
+                </a>
             </div>
 
         </div>
