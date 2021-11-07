@@ -3,7 +3,7 @@
 <!--  <HelloWorld msg="Welcome to Your Vue.js App"/>-->
   <Home />
 
-  <Footer />
+  <Footer version="0.0.1" />
 </template>
 
 <script>
