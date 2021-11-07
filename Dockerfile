@@ -22,15 +22,15 @@ EXPOSE 443
 
 EXPOSE 80
 
-CMD [ "http-server", "dist" ]
+CMD [ "npm", "run", "serve" ]
 
-# docker build -t bellfeige/page-redirect .
+# sudo docker build -t bellfeige/page-redirect .
 
-# docker pull bellfeige/page-redirect:latest
-# docker run -it -p 443:443 --rm --name page-redirect bellfeige/page-redirect:latest
+# sudo docker pull bellfeige/page-redirect:latest
+# sudo docker run -it -p 443:443 --rm --name page-redirect bellfeige/page-redirect:latest
 
-# docker tag bellfeige/page-redirect bellfeige/page-redirect:latest
+# sudo docker tag bellfeige/page-redirect bellfeige/page-redirect:latest
 
-# docker commit bellfeige/page-redirect bellfeige/page-redirect:latest
+# sudo docker commit bellfeige/page-redirect bellfeige/page-redirect:latest
 
-# docker push bellfeige/page-redirect:latest
+# sudo docker push bellfeige/page-redirect:latest

@@ -5,5 +5,6 @@ module.exports = {
         port: 443,
         https: true,
         hotOnly: false,
+        disableHostCheck: true
     },
 }
